@@ -9,6 +9,9 @@ const methodOverride = require('method-override');
 const mongoose = require ('mongoose');
 const app = express();
 const db = mongoose.connection;
+
+const DATABASE_URL =
+	'mongodb+srv://admin:abc1234@cluster0.aftg6.mongodb.net/tweets?retryWrites=true&w=majority';
 //___________________
 //Port
 //___________________
